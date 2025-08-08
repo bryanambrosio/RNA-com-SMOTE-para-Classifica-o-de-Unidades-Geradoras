@@ -1,17 +1,23 @@
-# RNA com SMOTE para Classificação de Unidades Geradoras
+# Neural Network with SMOTE for Generator Unit Classification
+#### Author: Bryan Ambrósio
 
-Este projeto utiliza uma Rede Neural Artificial (RNA) com técnicas de balanceamento (SMOTE) para classificar o número mínimo de Unidades Geradoras (UGs) a serem cortadas, com base em dados extraídos de simulações e análises de estabilidade.
+This project applies a Deep Neural Network (DNN) combined with SMOTE balancing techniques to classify the minimum number of Generator Units (UGs) to be disconnected, based on data extracted from simulations and stability analysis of power systems.
 
-## Estrutura do Projeto
+---
 
-- `main.py` — Código principal, comentado, com toda a lógica de processamento, treinamento e visualização.
-- `setup.rnn.env.bat` — Script automatizado para criação e configuração do ambiente virtual e instalação das dependências no Windows.
+## Project Structure
 
-## Como rodar o projeto
+- `main.py` — Main, well-commented Python script containing all data processing, model training, and visualization logic.
+- `setup.rnn.env.bat` — Windows batch script to automate the creation of a virtual environment and installation of dependencies.
+- `requirements.txt` — List of all required Python libraries for the project.
 
-### 1. Configurar o ambiente (Windows)
+---
 
-Execute o script batch para criar o ambiente virtual e instalar todas as dependências:
+## How to Run the Project
+
+### 1. Environment Setup (Windows)
+
+To ensure all dependencies are properly installed and to avoid common Windows environment issues, **always start by running the batch script**:
 
 ```cmd
 setup.rnn.env.bat
