@@ -1,1 +1,6 @@
-
+tensorflow
+scikit-learn
+imbalanced-learn
+pandas
+matplotlib
+openpyxl
