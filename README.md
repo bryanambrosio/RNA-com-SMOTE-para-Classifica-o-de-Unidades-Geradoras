@@ -1,7 +1,7 @@
 # Neural Network with SMOTE for Generator Unit Classification
 #### Author: Bryan Ambrósio
 
-This project applies a Deep Neural Network (DNN) combined with SMOTE balancing techniques to classify the minimum number of Generator Units (UGs) to be disconnected, based on data extracted from simulations and stability analysis of power systems.
+This project applies a Artificial Neural Network combined with SMOTE balancing techniques to classify the minimum number of Generator Units (UGs) to be disconnected, based on data extracted from simulations and stability analysis of power systems.
 
 ---
 
